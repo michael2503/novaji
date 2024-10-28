@@ -1,0 +1,44 @@
+/* ==============
+ ========= Css Documentation =========
+
+ Template Name: NOVAJI TEST
+ Author: Omotosho Michael
+*/
+
+@font-face {
+    font-family: "GTWalsheimProRegular";
+    src: url("../fonts/GTWalsheimProRegular.ttf")
+}
+@font-face {
+    font-family: "GTWalsheimProBold";
+    src: url("../fonts/GTWalsheimProBold.ttf")
+}
+
+:root {
+
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'GTWalsheimProRegular';
+  color: #000;
+  font-size: 14px;
+  /* font-weight: 400; */
+  /* background-color: #ffffff; */
+  overflow-x: hidden;
+}
+
+::-moz-selection {
+  color: #ffffff;
+  background-color: #07286e;
+}
